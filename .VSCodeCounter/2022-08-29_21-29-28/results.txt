@@ -1,0 +1,212 @@
+Date : 2022-08-29 21:29:28
+Directory : e:\关于前端\vue2项目\飞书项目\chatingroom
+Total : 152 files,  29088 codes, 1738 comments, 1544 blanks, all 32370 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          2 |     19,781 |          0 |          2 |     19,783 |
+| Vue                |         27 |      4,646 |        205 |        229 |      5,080 |
+| JavaScript         |         22 |      4,313 |      1,519 |      1,279 |      7,111 |
+| HTML               |          3 |        239 |          2 |         14 |        255 |
+| CSS                |         95 |         81 |          0 |         14 |         95 |
+| Markdown           |          1 |         19 |          0 |          6 |         25 |
+| JSON with Comments |          1 |          8 |         12 |          0 |         20 |
+| XML                |          1 |          1 |          0 |          0 |          1 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |        152 |     29,088 |      1,738 |      1,544 |     32,370 |
+| public                                                                              |          1 |         20 |          1 |          1 |         22 |
+| src                                                                                 |        143 |      9,023 |      1,711 |      1,519 |     12,253 |
+| src\api                                                                             |          6 |        279 |         37 |         47 |        363 |
+| src\assets                                                                          |         96 |         82 |          0 |         14 |         96 |
+| src\assets\theme                                                                    |         95 |         81 |          0 |         14 |         95 |
+| src\components                                                                      |          6 |        828 |         25 |         36 |        889 |
+| src\components\Contact                                                              |          2 |        320 |          8 |         16 |        344 |
+| src\components\Layout                                                               |          2 |        111 |          0 |          7 |        118 |
+| src\components\Layout\childComps                                                    |          1 |         90 |          0 |          5 |         95 |
+| src\components\Person                                                               |          2 |        397 |         17 |         13 |        427 |
+| src\router                                                                          |          1 |        106 |          2 |          5 |        113 |
+| src\service                                                                         |          1 |        165 |         39 |          5 |        209 |
+| src\socket                                                                          |          2 |      3,533 |      1,378 |      1,196 |      6,107 |
+| src\socket\js                                                                       |          1 |      3,508 |      1,378 |      1,196 |      6,082 |
+| src\store                                                                           |          7 |        127 |          8 |          8 |        143 |
+| src\store\childComps                                                                |          6 |        108 |          8 |          6 |        122 |
+| src\utils                                                                           |          2 |         55 |          4 |          4 |         63 |
+| src\utils\socket                                                                    |          1 |         25 |          0 |          0 |         25 |
+| src\views                                                                           |         20 |      3,771 |        178 |        189 |      4,138 |
+| src\views\AccountLogin                                                              |          4 |        497 |         15 |         29 |        541 |
+| src\views\AccountLogin\childComps                                                   |          3 |        448 |         13 |         26 |        487 |
+| src\views\LoginAndRegister                                                          |          3 |        320 |         18 |          8 |        346 |
+| src\views\LoginAndRegister\childComps                                               |          2 |        259 |         18 |          6 |        283 |
+| src\views\MailList                                                                  |          5 |      1,000 |         29 |         50 |      1,079 |
+| src\views\MailList\childComps                                                       |          4 |        979 |         29 |         48 |      1,056 |
+| src\views\Message                                                                   |          5 |      1,325 |        106 |         72 |      1,503 |
+| src\views\Message\childComps                                                        |          4 |      1,298 |        106 |         68 |      1,472 |
+| src\views\Profile                                                                   |          3 |        629 |         10 |         30 |        669 |
+| src\views\Profile\childComps                                                        |          2 |        607 |         10 |         25 |        642 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                            | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| e:\关于前端\vue2项目\飞书项目\chatingroom\README.md                                           | Markdown           |         19 |          0 |          6 |         25 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\babel.config.js                                     | JavaScript         |          5 |          0 |          1 |          6 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\jsconfig.json                                       | JSON with Comments |          8 |         12 |          0 |         20 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\package-lock.json                                   | JSON               |     19,728 |          0 |          1 |     19,729 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\package.json                                        | JSON               |         53 |          0 |          1 |         54 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\public\index.html                                   | HTML               |         20 |          1 |          1 |         22 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\App.vue                                         | Vue                |         47 |          2 |          4 |         53 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\api\LoginAndRegister.js                         | JavaScript         |         12 |          0 |          6 |         18 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\api\account.js                                  | JavaScript         |         82 |         12 |         20 |        114 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\api\contacts.js                                 | JavaScript         |         61 |          9 |          8 |         78 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\api\group.js                                    | JavaScript         |         79 |         10 |          8 |         97 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\api\message.js                                  | JavaScript         |         30 |          5 |          2 |         37 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\api\setting.js                                  | JavaScript         |         15 |          1 |          3 |         19 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\dlbox.svg                                | XML                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\alert.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\aside.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\autocomplete.css                   | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\avatar.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\backtop.css                        | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\badge.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\base.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\breadcrumb-item.css                | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\breadcrumb.css                     | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\button-group.css                   | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\button.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\calendar.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\card.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\carousel-item.css                  | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\carousel.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\cascader-panel.css                 | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\cascader.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\checkbox-button.css                | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\checkbox-group.css                 | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\checkbox.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\col.css                            | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\collapse-item.css                  | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\collapse.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\color-picker.css                   | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\container.css                      | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\date-picker.css                    | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\descriptions-item.css              | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\descriptions.css                   | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\dialog.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\display.css                        | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\divider.css                        | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\drawer.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\dropdown-item.css                  | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\dropdown-menu.css                  | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\dropdown.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\empty.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\footer.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\form-item.css                      | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\form.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\header.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\icon.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\image.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\index.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\infinite-scroll.css                | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\infiniteScroll.css                 | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\input-number.css                   | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\input.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\link.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\loading.css                        | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\main.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\menu-item-group.css                | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\menu-item.css                      | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\menu.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\message-box.css                    | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\message.css                        | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\notification.css                   | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\option-group.css                   | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\option.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\page-header.css                    | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\pagination.css                     | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\popconfirm.css                     | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\popover.css                        | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\popper.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\progress.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\radio-button.css                   | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\radio-group.css                    | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\radio.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\rate.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\reset.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\result.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\row.css                            | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\scrollbar.css                      | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\select-dropdown.css                | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\select.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\skeleton-item.css                  | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\skeleton.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\slider.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\spinner.css                        | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\step.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\steps.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\submenu.css                        | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\switch.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\tab-pane.css                       | CSS                |          0 |          0 |          1 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\table-column.css                   | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\table.css                          | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\tabs.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\tag.css                            | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\time-picker.css                    | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\time-select.css                    | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\timeline-item.css                  | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\timeline.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\tooltip.css                        | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\transfer.css                       | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\tree.css                           | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\assets\theme\upload.css                         | CSS                |          1 |          0 |          0 |          1 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\components\Contact\ChooseContact.vue            | Vue                |        107 |          1 |          6 |        114 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\components\Contact\ContactsList.vue             | Vue                |        213 |          7 |         10 |        230 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\components\Layout\childComps\LeftPart.vue       | Vue                |         90 |          0 |          5 |         95 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\components\Layout\index.vue                     | Vue                |         21 |          0 |          2 |         23 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\components\Person\ProfileDetail.vue             | Vue                |        257 |         10 |          9 |        276 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\components\Person\introduction.vue              | Vue                |        140 |          7 |          4 |        151 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\main.js                                         | JavaScript         |         30 |         38 |         11 |         79 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\router\index.js                                 | JavaScript         |        106 |          2 |          5 |        113 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\service\index.js                                | JavaScript         |        165 |         39 |          5 |        209 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\socket\index.js                                 | JavaScript         |         25 |          0 |          0 |         25 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\socket\js\socket.io.js                          | JavaScript         |      3,508 |      1,378 |      1,196 |      6,082 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\store\childComps\account.js                     | JavaScript         |         24 |          3 |          1 |         28 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\store\childComps\chat.js                        | JavaScript         |         16 |          0 |          0 |         16 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\store\childComps\freeLogin.js                   | JavaScript         |         15 |          3 |          1 |         19 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\store\childComps\network.js                     | JavaScript         |         13 |          0 |          1 |         14 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\store\childComps\socket.js                      | JavaScript         |         24 |          0 |          2 |         26 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\store\childComps\user.js                        | JavaScript         |         16 |          2 |          1 |         19 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\store\index.js                                  | JavaScript         |         19 |          0 |          2 |         21 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\utils\socket\index.js                           | JavaScript         |         25 |          0 |          0 |         25 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\utils\validate.js                               | JavaScript         |         30 |          4 |          4 |         38 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\AccountLogin\childComps\AccountDetail.vue | Vue                |        130 |          4 |          8 |        142 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\AccountLogin\childComps\AccountShow.vue   | Vue                |        161 |          4 |         10 |        175 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\AccountLogin\childComps\RegisterA.vue     | Vue                |        157 |          5 |          8 |        170 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\AccountLogin\index.vue                    | Vue                |         49 |          2 |          3 |         54 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\LoginAndRegister\childComps\Login.vue     | Vue                |        116 |          6 |          3 |        125 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\LoginAndRegister\childComps\Register.vue  | Vue                |        143 |         12 |          3 |        158 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\LoginAndRegister\index.vue                | Vue                |         61 |          0 |          2 |         63 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\MailList\childComps\Contacts.vue          | Vue                |        341 |          8 |         15 |        364 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\MailList\childComps\Groups.vue            | Vue                |        267 |          9 |         13 |        289 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\MailList\childComps\LeftShow.vue          | Vue                |         33 |          0 |          3 |         36 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\MailList\childComps\newContacts.vue       | Vue                |        338 |         12 |         17 |        367 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\MailList\index.vue                        | Vue                |         21 |          0 |          2 |         23 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\Message\childComps\Chatting.vue           | Vue                |        682 |         72 |         31 |        785 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\Message\childComps\GroupNotify.vue        | Vue                |        281 |         28 |         22 |        331 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\Message\childComps\LeftShow.vue           | Vue                |        143 |          3 |          5 |        151 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\Message\childComps\Message.vue            | Vue                |        192 |          3 |         10 |        205 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\Message\index.vue                         | Vue                |         27 |          0 |          4 |         31 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\Profile\childComps\LeftShow.vue           | Vue                |        210 |          0 |          8 |        218 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\Profile\childComps\Setting.vue            | Vue                |        397 |         10 |         17 |        424 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\src\views\Profile\index.vue                         | Vue                |         22 |          0 |          5 |         27 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\test1.html                                          | HTML               |         76 |          1 |          1 |         78 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\test2.html                                          | HTML               |        143 |          0 |         12 |        155 |
+| e:\关于前端\vue2项目\飞书项目\chatingroom\vue.config.js                                       | JavaScript         |         13 |         13 |          2 |         28 |
+| Total                                                                               |                    |     29,088 |      1,738 |      1,544 |     32,370 |
++-------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
